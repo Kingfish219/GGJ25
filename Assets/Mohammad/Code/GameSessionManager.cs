@@ -1,16 +1,15 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
-namespace Code
+namespace Mohammad.Code
 {
     public class GameSessionManager : MonoBehaviour
     {
         public Inventory Inventory { get; private set; }
-        [SerializeField] private Image[] inventorySlots;
+        [SerializeField] private InventorySlot[] inventorySlots;
         
         private void Awake()
         {
-            var numberGameSessions = FindObjectsByType(gameObject.GetType(), FindObjectsSortMode.None).Length;
+            var numberGameSessions = FindObjectsByType<GameSessionManager>(FindObjectsSortMode.None).Length;
             if (numberGameSessions > 1)
             {
                 Destroy(gameObject);
@@ -19,6 +18,8 @@ namespace Code
             {
                 DontDestroyOnLoad(gameObject);
             }
+
+            inventorySlots = FindObjectsByType<InventorySlot>(FindObjectsSortMode.InstanceID);
             
             Inventory = new Inventory(inventorySlots);
         }

@@ -1,13 +1,19 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-namespace Code
+namespace Mohammad.Code
 {
     public class Interactable : MonoBehaviour, IPointerClickHandler
     {
-        [SerializeField] private bool collectible;
-
         private GameSessionManager _gameSessionManager;
+        
+        [SerializeField] private bool collectible;
+        [SerializeField] public bool movable = true;
+        [SerializeField] private UnityEvent<Interactable, object> interaction;
+        public Sprite itemIcon;
+
+        public string CurrentState { get; private set; } = "default";
 
         private void Awake()
         {
@@ -29,12 +35,15 @@ namespace Code
                 _gameSessionManager.Inventory.AddItem(this);
             }
         }
-        
-        private void OnUsed()
+
+        public void Interact(object obj = null)
         {
-            Debug.Log("OnUsed");
-            
-            _gameSessionManager.Inventory.RemoveItem(this);
+            interaction.Invoke(this, obj);
+        }
+        
+        public void SetState(string state)
+        {
+            CurrentState = state;
         }
     }
 }

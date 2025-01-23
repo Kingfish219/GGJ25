@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0b4b889f0178e7946ad3b8443c0e7266
+guid: 094e31e991eaf1144882a9b7bb0db707
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4585274075291850304
-    second: Facet_0
+      213: 8813844533159492510
+    second: bubble-maker_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Facet_0
+      name: bubble-maker_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 100
+        x: 14
+        y: 12
+        width: 482
+        height: 485
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04614974a7a22af30800000000000000
-      internalID: 4585274075291850304
+      spriteID: e9b7d78b7e0115a70800000000000000
+      internalID: 8813844533159492510
       vertices: []
       indices: 
       edges: []
