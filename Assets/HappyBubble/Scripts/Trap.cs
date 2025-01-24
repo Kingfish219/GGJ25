@@ -4,6 +4,7 @@ public class Trap : MonoBehaviour
 {
     public float speed = 5f; // Speed at which the trap moves
     private Rigidbody2D rb;
+    [SerializeField] private bool isWall=false;
 
     private void Awake()
     {
@@ -25,9 +26,31 @@ public class Trap : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision != null && collision.CompareTag("Player"))
+        if (collision != null)
         {
-            Debug.Log("Poppppp");
+            if(collision.CompareTag("Player"))
+            {
+                GameObject ScoreTrigger = GameObject.Find("ScoreTrigger");
+                ScoreUpdator scoreUpdator = ScoreTrigger.GetComponent<ScoreUpdator>();
+                GameObject canvasBTN = GameObject.Find("CanvasBTN");
+                if (canvasBTN != null)
+                {
+                    // Find children by name
+                    Transform restartTransform = canvasBTN.transform.Find("Button(restart)");
+                    Transform continueTransform = canvasBTN.transform.Find("Button (countinue)");
+                    if (scoreUpdator.m_Score < scoreUpdator.goalScore)
+                    {
+                        restartTransform.gameObject.SetActive(true);
+                        Time.timeScale = 0f;
+                    }
+                    else
+                    {
+                        continueTransform.gameObject.SetActive(true);
+                        Time.timeScale = 0f;
+                    }
+                }
+            }
         }
+        
     }
 }

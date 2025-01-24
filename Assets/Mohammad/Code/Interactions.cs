@@ -38,7 +38,7 @@ namespace Mohammad.Code
             var gameSessionManager = FindObjectsByType<GameSessionManager>(FindObjectsSortMode.None)[0];
             gameSessionManager.Inventory.RemoveItem(interactable);
             var sceneLoader = FindObjectsByType<SceneLoader>(FindObjectsSortMode.None)[0];
-            sceneLoader.LoadSceneAsync("Pipes");
+            sceneLoader.LoadSceneAsync("PipeMiniIGame");
         }
     }
 }

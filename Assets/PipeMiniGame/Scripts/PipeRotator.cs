@@ -193,7 +193,6 @@ namespace PipeMiniGame
             {
                 selfAudioSource.clip = snapAudioClips[1];
                 selfAudioSource.Play();
-                Debug.Log(initTransPose);
                 transform.position = initTransPose;
                 isSnapped = false;
                 isCorrectPlace = false;

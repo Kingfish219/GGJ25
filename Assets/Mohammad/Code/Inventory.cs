@@ -27,6 +27,7 @@ namespace Mohammad.Code
             slotImage.sprite = item.itemIcon;
             slotImage.color = new Color(1, 1, 1, 1f);
             _inventorySlots[_items.Count - 1].item = item;
+            _inventorySlots[_items.Count - 1].ObjectName = item.name;
 
             if (item.movable)
             {

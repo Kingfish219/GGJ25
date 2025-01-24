@@ -8,7 +8,7 @@ namespace Mohammad.Code
     {
         public Image slotImage;
         public Interactable item;
-
+        public string ObjectName;
         private GameObject _shadowImage;
         private Canvas _canvas;
         private RectTransform _canvasRectTransform;

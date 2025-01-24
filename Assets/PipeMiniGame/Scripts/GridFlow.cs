@@ -1,3 +1,5 @@
+using Mohammad.Code;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace PipeMiniGame
@@ -6,8 +8,33 @@ namespace PipeMiniGame
     {
         private AudioSource Win_AudioSource;
         private PipeRotator[] pipeRotators;
+        [SerializeField] GameObject shouldentBeMiss1;
+        [SerializeField] GameObject shouldentBeMiss2;
+        private int DisableCall = 0;
+        private GameObject persistentObject;
+
+        public void DisablePersistentObject()
+        {
+            DisableCall++;
+            if (DisableCall == 2)
+            {
+                persistentObject = GameObject.Find("GameSession");
+                if (persistentObject != null)
+                    persistentObject.SetActive(false);
+            }
+        }
+        public void EnablePersistentObject()
+        {
+            if (persistentObject != null)
+                persistentObject.SetActive(true);
+            var sceneLoader = FindObjectsByType<SceneLoader>(FindObjectsSortMode.None)[0];
+            sceneLoader.LoadSceneAsync("Level 1");
+        }
+
+
         private void Start()
         {
+            
             // Get all PipeRotator components from the children of this GameObject
             pipeRotators = GetComponentsInChildren<PipeRotator>();
             Win_AudioSource = GetComponent<AudioSource>();
@@ -16,7 +43,7 @@ namespace PipeMiniGame
         }
         public void WinPipe()
         {
-            if (WinCheck())
+            if (WinCheck() && shouldentBeMiss1.activeSelf && shouldentBeMiss2.activeSelf)
             {
                 Win_AudioSource.Play();
             }
