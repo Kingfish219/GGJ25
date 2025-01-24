@@ -5,7 +5,7 @@ namespace Mohammad.Code
     public class GameSessionManager : MonoBehaviour
     {
         public Inventory Inventory { get; private set; }
-        [SerializeField] private InventorySlot[] inventorySlots;
+        [SerializeField] public InventorySlot[] inventorySlots;
         
         private void Awake()
         {

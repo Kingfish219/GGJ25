@@ -22,12 +22,14 @@ namespace Mohammad.Code
                 return;
             }
 
+            var index = _inventorySlots
+                .FindLastIndex(x => x.item is not null);
             _items.Add(item.name, item);
-            var slotImage = _inventorySlots[_items.Count - 1].slotImage;
+            var slotImage = _inventorySlots[index + 1].slotImage;
             slotImage.sprite = item.itemIcon;
             slotImage.color = new Color(1, 1, 1, 1f);
-            _inventorySlots[_items.Count - 1].item = item;
-            _inventorySlots[_items.Count - 1].ObjectName = item.name;
+            _inventorySlots[index + 1].item = item;
+            _inventorySlots[index + 1].ObjectName = item.name;
 
             if (item.movable)
             {
@@ -43,7 +45,6 @@ namespace Mohammad.Code
                 return;
             }
 
-            _items.Remove(item.name);
             _inventorySlots.Where(i => i.item is not null)
                 .SingleOrDefault(i => i.item.gameObject.name == item.name)!
                 .slotImage.sprite = null;
@@ -53,6 +54,8 @@ namespace Mohammad.Code
             _inventorySlots.Where(i => i.item is not null)
                 .SingleOrDefault(i => i.item.gameObject.name == item.name)!
                 .item = null;
+            
+            _items.Remove(item.name);
         }
     }
 }
