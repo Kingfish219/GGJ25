@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: c562d90e1a41db7409a05c425d110741
+guid: b6bff02aadbc0aa41abf385af53d7d96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8978988239446477144
-    second: cheesee_0
+      213: 9172218610271568698
+    second: bookshelf_0
+  - first:
+      213: 190318190729301679
+    second: bookshelf_1
+  - first:
+      213: 3206490988996083552
+    second: bookshelf_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cheesee_0
+      name: bookshelf_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 61
-        height: 45
+        y: 429
+        width: 10
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8590e962b36cb9c70800000000000000
-      internalID: 8978988239446477144
+      spriteID: a33c673ca344a4f70800000000000000
+      internalID: 9172218610271568698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bookshelf_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 375
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae07b8d26524a200800000000000000
+      internalID: 190318190729301679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bookshelf_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 402
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f3a96d09ebf7c20800000000000000
+      internalID: 3206490988996083552
       vertices: []
       indices: 
       edges: []
@@ -134,8 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      cheesee_0: 8978988239446477144
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

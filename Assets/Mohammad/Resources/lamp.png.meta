@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: c562d90e1a41db7409a05c425d110741
+guid: 9b6280dc8094e4a41bb8aa57d58732c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8978988239446477144
-    second: cheesee_0
+      213: 2599969905456701152
+    second: lamp_0
+  - first:
+      213: 4145382706316886449
+    second: lamp_1
+  - first:
+      213: 4427790141269597716
+    second: lamp_2
+  - first:
+      213: -5243597774938965349
+    second: lamp_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cheesee_0
+      name: lamp_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 61
-        height: 45
+        width: 216
+        height: 634
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8590e962b36cb9c70800000000000000
-      internalID: 8978988239446477144
+      spriteID: 0eed3719ad2f41420800000000000000
+      internalID: 2599969905456701152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 630
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1c014bb9b578930800000000000000
+      internalID: 4145382706316886449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 631
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ed95e8caba27d30800000000000000
+      internalID: 4427790141269597716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 626
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9afbbffa9ffa37b0800000000000000
+      internalID: -5243597774938965349
       vertices: []
       indices: 
       edges: []
@@ -134,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      cheesee_0: 8978988239446477144
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
