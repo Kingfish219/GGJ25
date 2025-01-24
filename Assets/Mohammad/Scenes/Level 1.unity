@@ -544,7 +544,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 896437589203422607, guid: 5f12b7cb038f45140a6e09844936d7f0, type: 3}
       propertyPath: m_Name
-      value: Pipe2
+      value: 2Pipe
       objectReference: {fileID: 0}
     - target: {fileID: 1443282585302556071, guid: 5f12b7cb038f45140a6e09844936d7f0, type: 3}
       propertyPath: m_Size.x
@@ -4127,7 +4127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4794594804834475055, guid: 5f12b7cb038f45140a6e09844936d7f0, type: 3}
       propertyPath: interaction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UseKey
+      value: UseFilledGlass
       objectReference: {fileID: 0}
     - target: {fileID: 4794594804834475055, guid: 5f12b7cb038f45140a6e09844936d7f0, type: 3}
       propertyPath: interaction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -5023,9 +5023,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63f1ccae830a29c4dba6ef07a779d5d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToiletLevel: 0
-  BubbleLevel: 0
-  DuckHaunt: 0
 --- !u!1001 &2069190301
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5317,7 +5314,7 @@ PrefabInstance:
       objectReference: {fileID: 1307034152}
     - target: {fileID: 4794594804834475055, guid: 5f12b7cb038f45140a6e09844936d7f0, type: 3}
       propertyPath: interaction.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UseFilledGlass
+      value: UseCheese
       objectReference: {fileID: 0}
     - target: {fileID: 4794594804834475055, guid: 5f12b7cb038f45140a6e09844936d7f0, type: 3}
       propertyPath: interaction.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

@@ -15,7 +15,7 @@ namespace Mohammad.Code
 
         private IEnumerator LoadSceneCoroutine(string sceneName)
         {
-            if (sceneName == "Level1")
+            if (sceneName == "Level 1")
             {
                 HandleLevel1();
             }

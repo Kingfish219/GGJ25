@@ -11,7 +11,7 @@ namespace Mohammad.Code
         {
             persistentObject = GameObject.Find("GameSession");
             if (persistentObject != null)
-                isValidBox = persistentObject.GetComponent<LevelData>().BubbleLevel;
+                isValidBox = LevelData.BubbleLevel;
             if (Box != null && !isValidBox) 
                 Box.SetActive(true);
         }

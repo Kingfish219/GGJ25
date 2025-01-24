@@ -29,7 +29,7 @@ namespace PipeMiniGame
             if (persistentObject != null)
             {
                 persistentObject.SetActive(true);
-                persistentObject.GetComponent<LevelData>().BubbleLevel = true;
+                LevelData.ToiletLevel = true;
             }
 
             var sceneLoader = FindObjectsByType<SceneLoader>(FindObjectsSortMode.None)[0];
@@ -63,7 +63,7 @@ namespace PipeMiniGame
             }
 
             // Load the next scene after the audio has finished
-            persistentObject.GetComponent<LevelData>().ToiletLevel = true;
+            
             EnablePersistentObject();
         }
 
