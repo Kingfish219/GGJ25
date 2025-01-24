@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LevelData : MonoBehaviour
 {
-    [SerializeField] private bool ToiletLevel;
-    [SerializeField] private bool BubbleLevel;
-    [SerializeField] private bool DuckHaunt;
+    public bool ToiletLevel;
+    public bool BubbleLevel;
+    public bool DuckHaunt;
 }
