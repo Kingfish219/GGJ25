@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c7445997e5db3a044b5e97b8d75df564
+guid: a61424fb8a2c9eb4a80ffbf0f3b72262
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4129725208922642183
-    second: bk-sink_0
+      213: -3100713198771319881
+    second: e95e393d225381b2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 180
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bk-sink_0
+      name: e95e393d225381b2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3500
-        height: 1969
+        width: 124
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7075fc1823bbf4930800000000000000
-      internalID: 4129725208922642183
+      spriteID: 7bbced426cd08f4d0800000000000000
+      internalID: -3100713198771319881
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      bk-sink_0: 4129725208922642183
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
