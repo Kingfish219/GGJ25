@@ -1,6 +1,7 @@
 using Mohammad.Code;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 namespace PipeMiniGame
 {
@@ -26,7 +27,11 @@ namespace PipeMiniGame
         public void EnablePersistentObject()
         {
             if (persistentObject != null)
+            {
                 persistentObject.SetActive(true);
+                persistentObject.GetComponent<LevelData>().BubbleLevel = true;
+            }
+
             var sceneLoader = FindObjectsByType<SceneLoader>(FindObjectsSortMode.None)[0];
             sceneLoader.LoadSceneAsync("Level 1");
         }
@@ -46,10 +51,22 @@ namespace PipeMiniGame
             if (WinCheck() && shouldentBeMiss1.activeSelf && shouldentBeMiss2.activeSelf)
             {
                 Win_AudioSource.Play();
+                StartCoroutine(WaitForAudioToEnd());
             }
-            else
-                Debug.Log("No");
         }
+        private IEnumerator WaitForAudioToEnd()
+        {
+            // Wait until the audio clip has finished playing
+            while (Win_AudioSource.isPlaying)
+            {
+                yield return null; // Wait for the next frame
+            }
+
+            // Load the next scene after the audio has finished
+            persistentObject.GetComponent<LevelData>().ToiletLevel = true;
+            EnablePersistentObject();
+        }
+
 
         private bool WinCheck()
         {
