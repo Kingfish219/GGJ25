@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: bcd42347e726afc4d879d115efdf712a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4763108479221869609
+    second: dog_run_0
+  - first:
+      213: 5021877260194103643
+    second: dog_run_1
+  - first:
+      213: 5624506614292517920
+    second: dog_run_2
+  - first:
+      213: -539859048313147142
+    second: dog_run_3
+  - first:
+      213: -7211169207845258735
+    second: dog_run_4
+  - first:
+      213: -7583905426470799435
+    second: dog_run_5
+  - first:
+      213: 8166827063939850057
+    second: dog_run_6
+  - first:
+      213: -6940198428202721838
+    second: dog_run_7
+  - first:
+      213: 2764958955299721406
+    second: dog_run_8
+  - first:
+      213: 528848068879536863
+    second: dog_run_9
+  - first:
+      213: 3691473265130447345
+    second: dog_run_10
+  - first:
+      213: -5609260636215559127
+    second: dog_run_11
+  - first:
+      213: -909716189751364114
+    second: dog_run_12
+  - first:
+      213: -589858877791246929
+    second: dog_run_13
+  - first:
+      213: 7165429953729224627
+    second: dog_run_14
+  - first:
+      213: -3949514966745289653
+    second: dog_run_15
+  - first:
+      213: -940548770606693874
+    second: dog_run_16
+  - first:
+      213: 7624248669218582264
+    second: dog_run_17
+  - first:
+      213: -3842356751722999830
+    second: dog_run_18
+  - first:
+      213: 4001188895334574112
+    second: dog_run_19
+  - first:
+      213: 5900593875922717081
+    second: dog_run_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dog_run_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1029
+        width: 275
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92caba20de5f91240800000000000000
+      internalID: 4763108479221869609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1027
+        width: 278
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b514b77d2ca41b540800000000000000
+      internalID: 5021877260194103643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_2
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1031
+        width: 280
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0249dbd37f24e0e40800000000000000
+      internalID: 5624506614292517920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_3
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1027
+        width: 281
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0b38c4e090288f0800000000000000
+      internalID: -539859048313147142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 834
+        width: 282
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11af527dfc7cceb90800000000000000
+      internalID: -7211169207845258735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 848
+        width: 283
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7fc05223e80c690800000000000000
+      internalID: -7583905426470799435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 839
+        width: 285
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f5e28e1f5665170800000000000000
+      internalID: 8166827063939850057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_7
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 824
+        width: 279
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd9040ec467faf90800000000000000
+      internalID: -6940198428202721838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 630
+        width: 287
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0dc2d358b1f5620800000000000000
+      internalID: 2764958955299721406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_9
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 627
+        width: 286
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd257b54488d65700800000000000000
+      internalID: 528848068879536863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 623
+        width: 288
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1a3f9506fba3330800000000000000
+      internalID: 3691473265130447345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_11
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 620
+        width: 278
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c3ac5ab27e722b0800000000000000
+      internalID: -5609260636215559127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 412
+        width: 287
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5b27ff1f90063f0800000000000000
+      internalID: -909716189751364114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_13
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 410
+        width: 287
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa564a1d97660d7f0800000000000000
+      internalID: -589858877791246929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_14
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 410
+        width: 286
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf59fe2498b07360800000000000000
+      internalID: 7165429953729224627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_15
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 414
+        width: 276
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cee0c20118039c0800000000000000
+      internalID: -3949514966745289653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 206
+        width: 284
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02ce0a50ef72f2f0800000000000000
+      internalID: -940548770606693874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_17
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 208
+        width: 282
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fea40805c5cec960800000000000000
+      internalID: 7624248669218582264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_18
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 206
+        width: 282
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef0a3954e43daac0800000000000000
+      internalID: -3842356751722999830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_19
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 209
+        width: 276
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028a7a1e914178730800000000000000
+      internalID: 4001188895334574112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_run_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 4
+        width: 275
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99908321ede13e150800000000000000
+      internalID: 5900593875922717081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dog_run_0: 4763108479221869609
+      dog_run_1: 5021877260194103643
+      dog_run_10: 3691473265130447345
+      dog_run_11: -5609260636215559127
+      dog_run_12: -909716189751364114
+      dog_run_13: -589858877791246929
+      dog_run_14: 7165429953729224627
+      dog_run_15: -3949514966745289653
+      dog_run_16: -940548770606693874
+      dog_run_17: 7624248669218582264
+      dog_run_18: -3842356751722999830
+      dog_run_19: 4001188895334574112
+      dog_run_2: 5624506614292517920
+      dog_run_20: 5900593875922717081
+      dog_run_3: -539859048313147142
+      dog_run_4: -7211169207845258735
+      dog_run_5: -7583905426470799435
+      dog_run_6: 8166827063939850057
+      dog_run_7: -6940198428202721838
+      dog_run_8: 2764958955299721406
+      dog_run_9: 528848068879536863
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
