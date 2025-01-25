@@ -3,11 +3,13 @@ using System.Collections;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 namespace Mohammad.Code
 {
     public class SceneLoader : MonoBehaviour
     {
+        public GameObject BobBob;
         public void LoadSceneAsync(string sceneName)
         {
             StartCoroutine(LoadSceneCoroutine(sceneName));
@@ -17,6 +19,11 @@ namespace Mohammad.Code
         {
             if (sceneName == "Level 1")
             {
+                if(LevelData.BubbleLevel)
+                {
+                    Instantiate(BobBob);
+                }
+                
                 HandleLevel1();
             }
             var operation = SceneManager.LoadSceneAsync(sceneName);

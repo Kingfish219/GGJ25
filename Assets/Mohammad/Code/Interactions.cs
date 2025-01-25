@@ -6,6 +6,8 @@ namespace Mohammad.Code
 {
     public class Interactions : MonoBehaviour
     {
+        public GameObject BobBob;
+        
         public void UseCheese(Interactable interactable, object obj = null)
         {
             Debug.Log("Cheese used!");
@@ -44,15 +46,15 @@ namespace Mohammad.Code
             sceneLoader.LoadSceneAsync("PipeMiniIGame");
         }
         
-        public static void UseFilledGlass(Interactable interactable, object obj = null)
+        public void UseFilledGlass(Interactable interactable, object obj = null)
         {
             Debug.Log("UseFilledGlass");
-
+            
             if (!interactable.gameObject.name.Equals("FilledGlass", StringComparison.InvariantCultureIgnoreCase))
             {
                 return;
             }
-
+            
             var gameSessionManager = FindObjectsByType<GameSessionManager>(FindObjectsSortMode.None)[0];
             gameSessionManager.Inventory.RemoveItem(interactable);
             GameObject targetObject = GameObject.Find("Aqua");

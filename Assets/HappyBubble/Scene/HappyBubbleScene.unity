@@ -2079,7 +2079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TextMeshPro: {fileID: 224457967}
-  goalScore: 10
+  goalScore: 2
   m_Score: 0
 --- !u!61 &1277450855
 BoxCollider2D:
